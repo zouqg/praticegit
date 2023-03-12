@@ -12,6 +12,20 @@ git reset HEAD readme.txt  撤销readme.txt在暂存区的修改
 # 小总结
 # 撤销在工作区的修改 git checkout -- file
 # 撤销add			 git reset HEAD file ,修改阶段将回到工作区
-# 撤销commit		 git reset --hard b
+# 撤销commit		 git reset --hard 版本号
+
+git remote -v 			# 查看远程库信息
+git remote rm origin 	# 解除本地库和远程库的连接
+git remote add origin git@server-name:path/repo-name.git # 关联一个远程库 origin是默认习惯命名
+git push -u origin master 	#第一次推送master分支的所有内容
+git push origin master   	# 本地修改后，推送最新修改到远程分支
+
+git 支持两种协议https和ssh(速度快)
+	1、 https://github.com/zouqg/praticegit.git
+	2、 git@github.com:zouqg/praticegit.git
 ```
+
+##### 分支管理
+
+> 分支的创建、切换和删除
 
