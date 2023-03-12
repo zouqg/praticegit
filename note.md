@@ -34,6 +34,13 @@ git 支持两种协议https和ssh(速度快)
  	# 相当于下面两条命令
  	git branch dev
 	git checkout dev
+git merge dev		# 将dev分支合并到当前分支
+git branch -d dev  	# 合并后删除dev分支
+
+# 用switch切换分支
+git switch -c dev 	# 创建dev分支并切换
+git switch master	# 切换到以后的分支
+git branch 			# 创建分支
 
 ```
 
