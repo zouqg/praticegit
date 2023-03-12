@@ -29,3 +29,11 @@ git 支持两种协议https和ssh(速度快)
 
 > 分支的创建、切换和删除
 
+```bash
+ git checkout -b dev  # 创建dev分支并切换到dev分支
+ 	# 相当于下面两条命令
+ 	git branch dev
+	git checkout dev
+
+```
+
